@@ -1,0 +1,129 @@
+/* 
+COLOURS:
+
+main red: #D5283E
+complimentary green: #29D6BF
+complimentary blue: #29b4d6
+off-white: #FCEEF0
+
+
+yellow: #FFFF40
+
+*/
+
+body {
+    background-color: #FCEEF0;
+}
+
+
+
+/* NAVBAR */
+
+.navbar-container {
+    background-color: #D5283E;
+}
+
+.navlink-container {
+
+}
+
+.navlink-container a {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    color: white;
+    font-size: 1.5rem
+    
+}
+
+/* for screens over 600px */
+@media screen and (min-width: 600px) {
+    .navlink-container a {
+        padding: 8px 64px;
+    }
+}
+
+/* for screens over 400px and under 599px */
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+    .navlink-container a {
+        font-size: 1.2rem;
+    }
+}
+
+/* for screens under 399px */
+
+@media screen and (max-width: 399px) {
+    .navlink-container a {
+        font-size: 1rem;
+
+    }
+}
+
+/* TYPOGRAPHY */
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 600
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .subheading {
+        font-size: rem;
+        font-weight: 600
+    }
+}
+
+.text-block-green {
+    background-color: #29D6BF
+}
+
+.text-block-blue {
+    background-color: #65C9E2
+}
+
+.text-block-red {
+    background-color: #D5283E
+}
+
+.text-block-yellow {
+    background-color: #F7E663;
+    color: #9A1D2E
+}
+
+
+/* HERO SECTION */
+
+/* .hero-container {
+;
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* FIRST SECTION */
+
+.first-section {
+    background-color:  #F7E663;
+    
+}
+
+/* FOOTER */
+
+.footer {
+    colour: #BC2438;
+}
+
+.footer-contents h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0 0 12px 0;
+}
+
+.footer-contents h4 {
+    font-weight: 600;
+}
+
+.footer-info {
+    padding: 10px 0 4px 0;
+}
