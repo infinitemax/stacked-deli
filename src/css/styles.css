@@ -23,42 +23,68 @@ body {
     background-color: #D5283E;
 }
 
-.navlink-container {
-
-}
-
-.navlink-container a {
+/* .navlink-container a {
     display: inline-block;
     text-align: center;
-    padding: 8px 16px;
     color: white;
-    font-size: 1.5rem
-    
+    font-size: 1.5rem;
+
+} */
+
+
+/* Animating link hover */
+
+.nav-a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
 }
 
-/* for screens over 600px */
-@media screen and (min-width: 600px) {
-    .navlink-container a {
-        padding: 8px 64px;
-    }
+.nav-a:hover {
+    color: #fff;
 }
+
+.nav-a::before {
+    content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+  }
+
+/* for screens over 600px */
+/* @media screen and (min-width: 600px) {
+    .navlink-container a {
+        padding: 8px 0;
+        margin: 0 40px;
+    }
+} */
 
 /* for screens over 400px and under 599px */
 
-@media screen and (min-width: 400px) and (max-width: 599px) {
+/* @media screen and (min-width: 400px) and (max-width: 599px) {
     .navlink-container a {
         font-size: 1.2rem;
     }
-}
+} */
 
 /* for screens under 399px */
 
-@media screen and (max-width: 399px) {
+/* @media screen and (max-width: 399px) {
     .navlink-container a {
         font-size: 1rem;
 
     }
-}
+} */
 
 /* TYPOGRAPHY */
 
