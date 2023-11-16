@@ -1,0 +1,9 @@
+To do for Ben's site
+
+- MENUS
+
+The menus are currently images, which is easy to upload, but poor for accessibility so these need to become items that are created dynamically.
+
+- CMS
+
+Need to build a place that works with strapi to allow Ben to update the website.
