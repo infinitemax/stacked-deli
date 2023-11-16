@@ -7,3 +7,8 @@ The menus are currently images, which is easy to upload, but poor for accessibil
 - CMS
 
 Need to build a place that works with strapi to allow Ben to update the website.
+
+- Contact
+
+Could add a contact form
+Could add some funky pictures
