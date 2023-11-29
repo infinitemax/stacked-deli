@@ -12,3 +12,23 @@ Need to build a place that works with strapi to allow Ben to update the website.
 
 Could add a contact form
 Could add some funky pictures
+
+
+
+
+Feedback
+
+- Replace image with brightones that Ben will send over
+
+- ditch quality ingredients
+
+- adjust colours using red hues e.g. pink
+
+- link to insta @stacked_deli_sheffield
+
+
+
+MENUS - Use updated menus
+
+- Bukhari Script
+- Nunito 
