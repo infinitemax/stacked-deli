@@ -141,17 +141,3 @@ a:hover::before {
 .footer {
     colour: #BC2438;
 }
-
-.footer-contents h3 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0 0 12px 0;
-}
-
-.footer-contents h4 {
-    font-weight: 600;
-}
-
-.footer-info {
-    padding: 10px 0 4px 0;
-}
