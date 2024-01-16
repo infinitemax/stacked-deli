@@ -7,6 +7,7 @@ The menus are currently images, which is easy to upload, but poor for accessibil
 - CMS
 
 Need to build a place that works with strapi to allow Ben to update the website.
+Actually maybe makes more sense to use wp?
 
 - Contact
 
@@ -14,21 +15,6 @@ Could add a contact form
 Could add some funky pictures
 
 
+- to do...
 
-
-Feedback
-
-- Replace image with brightones that Ben will send over
-
-- ditch quality ingredients
-
-- adjust colours using red hues e.g. pink
-
-- link to insta @stacked_deli_sheffield
-
-
-
-MENUS - Use updated menus
-
-- Bukhari Script
-- Nunito 
+Create 
